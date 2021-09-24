@@ -1,0 +1,611 @@
+{
+	"information": [
+		{
+			"n": "stats",
+			"d": "Sends some general stats of the bot",
+			"s": "stats ",
+			"a": ["stats", "botinfo"]
+		},
+		{ "n": "ping", "d": "Ping the bot", "s": "ping ", "a": ["ping", "pong"] },
+		{
+			"n": "server",
+			"d": "Get some information about this server",
+			"s": "server ",
+			"a": ["server", "guild"]
+		},
+		{
+			"n": "githubuser",
+			"d": "View some information about a github user",
+			"s": "githubuser [user]",
+			"a": ["githubuser"]
+		},
+		{
+			"n": "userinfo",
+			"d": "View the information about a user",
+			"s": "userinfo <member>",
+			"a": ["userinfo", "u", "user"]
+		},
+		{
+			"n": "raw",
+			"d": "View the raw text of your message",
+			"s": "raw <text>",
+			"a": ["raw"]
+		}
+	],
+	"general": [
+		{
+			"n": "support",
+			"d": "Support server :)",
+			"s": "support ",
+			"a": ["support"]
+		},
+		{
+			"n": "autopublish",
+			"d": "Automatically publish messages",
+			"s": "autopublish <channel>",
+			"a": ["autopublish", "publish"]
+		},
+		{
+			"n": ["github", "set"],
+			"d": "the channel github updates will be send to",
+			"s": "github set [channel]",
+			"a": ["set"]
+		},
+		{
+			"n": ["github", "reset"],
+			"d": "this will reset everything including the channel",
+			"s": "github reset ",
+			"a": ["reset"]
+		},
+		{
+			"n": ["github", "add"],
+			"d": "add a repository to be stalked by Malil.",
+			"s": "github add [repo]",
+			"a": ["add"]
+		},
+		{
+			"n": "avatar",
+			"d": "View the avatar of a user",
+			"s": "av <member>",
+			"a": ["av", "avatar"]
+		},
+		{
+			"n": "help",
+			"d": "Malil Help Command",
+			"s": "ls <command>",
+			"a": ["ls", "h"]
+		},
+		{
+			"n": "github",
+			"d": "This command is big",
+			"s": "github <reset> <add> <set> <remove>",
+			"a": ["github", "githubstalk", "stalk"]
+		},
+		{
+			"n": "invite",
+			"d": "Invite Malil to your server",
+			"s": "invite ",
+			"a": ["invite"]
+		}
+	],
+	"fun": [
+		{ "n": "crab", "d": "Ultimate crab", "s": "crab [crab]", "a": ["crab"] },
+		{
+			"n": "apng",
+			"d": "turn a image into a apng",
+			"s": "apng ",
+			"a": ["apng", "apng", "apng"]
+		},
+		{
+			"n": "fedora",
+			"d": "fedora stuff",
+			"s": "fedora <member>",
+			"a": ["fedora"]
+		},
+		{
+			"n": "math",
+			"d": "Do some math",
+			"s": "math <easy> <normal> <hard> <impossible>",
+			"a": ["math"]
+		},
+		{
+			"n": "encode",
+			"d": "Decode things ig",
+			"s": "encode <encode>",
+			"a": ["encode", "decode"]
+		},
+		{ "n": "fact", "d": "Sends a random fact", "s": "fact ", "a": ["fact"] },
+		{
+			"n": "youtube",
+			"d": "Start a youtube together session",
+			"s": "youtube <channel>",
+			"a": ["youtube", "yt"]
+		},
+		{
+			"n": ["math", "normal"],
+			"d": "normal math question",
+			"s": "math normal ",
+			"a": ["normal"]
+		},
+		{
+			"n": ["math", "impossible"],
+			"d": "impossible math question",
+			"s": "math impossible ",
+			"a": ["impossible"]
+		},
+		{
+			"n": ["math", "easy"],
+			"d": "easy math question",
+			"s": "math easy ",
+			"a": ["easy"]
+		},
+		{
+			"n": ["math", "hard"],
+			"d": "hard math question",
+			"s": "math hard ",
+			"a": ["hard"]
+		},
+		{
+			"n": "asciify",
+			"d": "asiify your avatar or picture",
+			"s": "asciify <member>",
+			"a": ["asciify", "ascii", "assci", "asccii", "asci", "aci"]
+		},
+		{
+			"n": "pat",
+			"d": "petpetpet",
+			"s": "pat <ign> <member>",
+			"a": ["pat", "patpat", "pet"]
+		},
+		{
+			"n": "short",
+			"d": "Shorten a link",
+			"s": "short <link>",
+			"a": ["short", "shorten"]
+		},
+		{
+			"n": "uwu",
+			"d": "Uwufy some text",
+			"s": "uwu <uwu>",
+			"a": ["uwu", "uwufy", "uwuify"]
+		},
+		{
+			"n": "iqtest",
+			"d": "Do a iqtest",
+			"s": "iqtest <member>",
+			"a": ["iqtest", "iq", "testiq"]
+		},
+		{
+			"n": "mock",
+			"d": "Mock someone",
+			"s": "mock <mock>",
+			"a": ["mock", "itriedmybest", "mok"]
+		},
+		{ "n": "blame", "d": "Blame someone", "s": "blame [text]", "a": ["blame"] },
+		{
+			"n": "makememe",
+			"d": "Make a meme",
+			"s": "makememe <text>",
+			"a": ["makememe", "makeameme"]
+		}
+	],
+	"config": [
+		{
+			"n": "configs",
+			"d": "view the configs of Malil",
+			"s": "configs ",
+			"a": ["configs", "pf"]
+		},
+		{
+			"n": "prefix",
+			"d": "view the prefix of Malil",
+			"s": "prefix <set>",
+			"a": ["prefix", "pf"]
+		},
+		{
+			"n": ["prefix", "set"],
+			"d": "set Malil's prefix",
+			"s": "prefix set [prefix]",
+			"a": ["set"]
+		}
+	],
+	"suggestions": [
+		{
+			"n": "suggestion",
+			"d": "Entry point for the suggestions commands",
+			"s": "suggestion <of> <deny> <edit> <view> <channel> <comment> <deniedchannel> <accept> <acomment> <chart> <top> <restore> <silentdelete> <acceptedchannel> <emojis> <suggest> <down> <suggestions> <startthreadbutton> <search>",
+			"a": ["suggestion", "suggestioninfo", "sug", "s"]
+		},
+		{
+			"n": ["suggestion", "down"],
+			"d": "Displays the most down voted suggestions in this guild",
+			"s": "suggestion down ",
+			"a": ["down", "shittiestsuggestions"]
+		},
+		{
+			"n": ["suggestion", "emojis"],
+			"d": "Set the emojis to be used in suggestions HAS TO BE CUSTOM ONES",
+			"s": "suggestion emojis [emojis]",
+			"a": ["emojis", "voteemojis"]
+		},
+		{
+			"n": ["suggestion", "of"],
+			"d": "View the cool suggestions other users have made",
+			"s": "suggestion suggestionsof [user]",
+			"a": ["suggestionsof", "my", "of"]
+		},
+		{
+			"n": ["suggestion", "comment"],
+			"d": "Comment on a suggestion",
+			"s": "suggestion comment <suggestion> <reason>",
+			"a": ["comment", "commentsuggestion"]
+		},
+		{
+			"n": ["suggestion", "view"],
+			"d": "view a suggestion",
+			"s": "suggestion suggestion [suggestion]",
+			"a": ["suggestion", "suggestioninfo", "sug", "s", "view"]
+		},
+		{
+			"n": ["suggestion", "restore"],
+			"d": "Restore  a suggestion",
+			"s": "suggestion restore <suggestion>",
+			"a": ["restore", "restoresuggestion"]
+		},
+		{
+			"n": ["suggestion", "accept"],
+			"d": "Accept a suggestions",
+			"s": "suggestion accept <suggestion> <reason>",
+			"a": ["accept", "acceptsuggestion", "done"]
+		},
+		{
+			"n": ["suggestion", "search"],
+			"d": "Search for a suggestion",
+			"s": "suggestion search [query]",
+			"a": ["search", "searchsuggestion"]
+		},
+		{
+			"n": ["suggestion", "acceptedchannel"],
+			"d": "Set the accepted channel",
+			"s": "suggestion acceptedchannel <channel>",
+			"a": ["acceptedchannel"]
+		},
+		{
+			"n": ["suggestion", "acomment"],
+			"d": "Comment on a suggestion without showing your identity",
+			"s": "suggestion acomment <suggestion> <reason>",
+			"a": ["acomment", "acommentsuggestion"]
+		},
+		{
+			"n": ["suggestion", "suggest"],
+			"d": "Suggest something",
+			"s": "suggestion suggest [suggestion]",
+			"a": ["suggest", "create"]
+		},
+		{
+			"n": ["suggestion", "silentdelete"],
+			"d": "Delete a sugggestion silently",
+			"s": "suggestion silentdelete <suggestion>",
+			"a": ["silentdelete"]
+		},
+		{
+			"n": ["suggestion", "deny"],
+			"d": "deny a suggestion",
+			"s": "suggestion delsuggestion [suggestion] <reason>",
+			"a": [
+				"delsuggestion",
+				"deletesuggestion",
+				"deny",
+				"denysuggestion",
+				"delete"
+			]
+		},
+		{
+			"n": ["suggestion", "channel"],
+			"d": "Set the channel suggestions will be send in",
+			"s": "suggestion suggestionschannel <channel>",
+			"a": [
+				"suggestionschannel",
+				"channel",
+				"suggestionschannel",
+				"suggestionchannel"
+			]
+		},
+		{
+			"n": ["suggestion", "deniedchannel"],
+			"d": "Set the denied channel",
+			"s": "suggestion deniedchannel <channel>",
+			"a": ["deniedchannel", "denychannel"]
+		},
+		{
+			"n": ["suggestion", "suggestions"],
+			"d": "Displays the top suggestions in this guild",
+			"s": "suggestion suggestions [suggestions]",
+			"a": ["suggestions", "list"]
+		},
+		{
+			"n": ["suggestion", "topsuggestions"],
+			"s": "suggestion top ",
+			"a": ["top", "topsuggestions"]
+		},
+		{
+			"n": ["suggestion", "chart"],
+			"d": "Displays the suggestions made per day",
+			"s": "suggestion chart ",
+			"a": ["chart"]
+		},
+		{
+			"n": ["suggestion", "edit"],
+			"d": "Edit a suggestion",
+			"s": "suggestion editsuggestion <suggestion> <content>",
+			"a": ["editsuggestion", "edit"]
+		},
+		{
+			"n": ["suggestion", "startthreadbutton"],
+			"d": "Adds a button to suggestions to start a thread",
+			"s": "suggestion startthreadbutton <msg>",
+			"a": ["startthreadbutton", "thread"]
+		}
+	],
+	"moderation": [
+		{
+			"n": "reason",
+			"d": "Set the reason of a infraction",
+			"s": "reason [id] [reason]",
+			"a": ["reason", "reson"]
+		},
+		{
+			"n": "moderation",
+			"d": "modify moderation settings",
+			"s": "moderation <banmessage> <kickmessage> <mutemessage> <warnmessage> <modlogchannel> <publicmodlogchannel> <addmod>",
+			"a": ["moderation"]
+		},
+		{
+			"n": ["moderation", "banmessage"],
+			"d": "set the footer",
+			"s": "moderation banmessage <footer>",
+			"a": ["banmessage"]
+		},
+		{
+			"n": ["moderation", "kickmessage"],
+			"d": "set the footer",
+			"s": "moderation kickmessage <footer>",
+			"a": ["kickmessage"]
+		},
+		{
+			"n": ["moderation", "mutemessage"],
+			"d": "set the footer",
+			"s": "moderation mutemessage <footer>",
+			"a": ["mutemessage"]
+		},
+		{
+			"n": ["moderation", "warnmessage"],
+			"d": "set the footer",
+			"s": "moderation warnmessage <footer>",
+			"a": ["warnmessage"]
+		},
+		{
+			"n": ["moderation", "publicmodlogchannel"],
+			"d": "The channel infractions will be posted in to the public",
+			"s": "moderation publicmodlogchannel <channel>",
+			"a": ["publicmodlogchannel"]
+		},
+		{
+			"n": ["moderation", "modlogchannel"],
+			"d": "the channel modlogs will be posted in",
+			"s": "moderation modlogchannel <channel>",
+			"a": ["modlogchannel"]
+		},
+		{
+			"n": ["moderation", "addmod"],
+			"d": "allow a user or role to do all moderation actions",
+			"s": "moderation addmod <user> <role>",
+			"a": ["addmod"]
+		},
+		{
+			"n": "clearlogs",
+			"d": "clearlogs a user",
+			"s": "clearlogs [user]",
+			"a": ["clearlogs", "clearwarns"]
+		},
+		{
+			"n": "kick",
+			"d": "Kick users from your server",
+			"s": "kick [user] <reason>",
+			"a": ["kick", "yeet"]
+		},
+		{
+			"n": "slowmode",
+			"d": "Set the slowmode of a channel",
+			"s": "slowmode [time]",
+			"a": ["slowmode", "sm"]
+		},
+		{
+			"n": "modlogs",
+			"d": "modlogs a user",
+			"s": "modlogs [user]",
+			"a": ["modlogs", "warns"]
+		},
+		{
+			"n": "ban",
+			"d": "Ban users from your server",
+			"s": "ban [user] <reason> <deletemessages>",
+			"a": ["ban"]
+		},
+		{ "d": "Give a user a role", "s": "role <user> <role>", "a": ["role"] },
+		{
+			"n": "warn",
+			"d": "warn a user",
+			"s": "warn [user] <reason>",
+			"a": ["warn"]
+		}
+	],
+	"vip": [
+		{
+			"n": "uwuchannel",
+			"d": "no please noooooooooooO!",
+			"s": "uwuchannel ",
+			"a": ["uwuchannel"]
+		},
+		{
+			"n": "piratechannel",
+			"d": "no please noooooooooooO!",
+			"s": "piratechannel ",
+			"a": ["piratechannel"]
+		},
+		{
+			"n": "tag",
+			"d": "Display a tag",
+			"s": "tag <all> <raw> <dtag> <view> <delete> <add>",
+			"a": ["tag", "t", "addtag", "tags"]
+		},
+		{
+			"n": "quote",
+			"d": "quote a message",
+			"s": "quote <link>",
+			"a": ["quote", "qt"]
+		},
+		{
+			"n": "buttonroles",
+			"d": "Button reaction roles",
+			"s": "buttonroles <roles>",
+			"a": ["buttonroles", "reactionroles", "rr", "br"]
+		},
+		{
+			"n": "temprole",
+			"d": "Give a user a role temporaily",
+			"s": "temprole [user] [role] [time]",
+			"a": ["temprole"]
+		},
+		{
+			"n": ["tag", "view"],
+			"d": "Shows a tag",
+			"s": "tag tag <tag>",
+			"a": ["tag", "view"]
+		},
+		{
+			"n": ["tag", "dtag"],
+			"d": "Show a tag but also delete your message",
+			"s": "tag dtag <tag>",
+			"a": ["dtag"]
+		},
+		{
+			"n": ["tag", "all"],
+			"d": "Displays the tags in this server",
+			"s": "tag tags ",
+			"a": ["tags", "all", "list"]
+		},
+		{
+			"n": ["tag", "raw"],
+			"d": "Shows a tag's raw data",
+			"s": "tag rawtag <tag>",
+			"a": ["rawtag", "raw"]
+		},
+		{
+			"n": ["tag", "add"],
+			"d": "Add a tag",
+			"s": "tag addtag <name> <content>",
+			"a": ["addtag", "create", "+", "create", "+=", "update", "add"]
+		},
+		{
+			"n": ["tag", "delete"],
+			"d": "Delete a tag",
+			"s": "tag deletetag <tag>",
+			"a": ["deletetag", "deltag", "delete", "remove", "del"]
+		}
+	],
+	"threads": [
+		{
+			"n": "supportping",
+			"d": "Set a role to be pinged on every support thread",
+			"s": "supportping <role>",
+			"a": ["supportping"]
+		},
+		{
+			"n": "threadsupport",
+			"d": "Enable threadsupport to make support easier #stafflife",
+			"s": "threadsupport <thread>",
+			"a": ["threadsupport", "threadsup", "supportthread"]
+		}
+	],
+	"packages": [
+		{
+			"n": "package",
+			"d": "Entry point for the suggestions commands",
+			"s": "package <deno> <maven> <natico> <pip> <npm> <golang> <dart> <ddoc> <aur> <apt> <hackage> <crate>",
+			"a": ["package", "p"]
+		},
+		{
+			"n": ["package", "pip"],
+			"d": "Search for a pip package",
+			"s": "package pip [pip]",
+			"a": ["pip", "python"]
+		},
+		{
+			"n": ["package", "deno"],
+			"d": "Search for a deno package",
+			"s": "package deno [deno]",
+			"a": ["deno"]
+		},
+		{
+			"n": ["package", "aur"],
+			"d": "Find aur packages for you",
+			"s": "package aur [arch]",
+			"a": ["aur", "arch", "paru"]
+		},
+		{
+			"n": ["package", "dart"],
+			"d": "Search for a 🐦 flutter package",
+			"s": "package dart [dart]",
+			"a": ["dart", "flutter", "🐦"]
+		},
+		{
+			"n": ["package", "maven"],
+			"d": "Search for maven packages to use in your projects",
+			"s": "package maven [maven]",
+			"a": ["maven", "java", "kotlin"]
+		},
+		{
+			"n": ["package", "golang"],
+			"d": "Search for a golang module",
+			"s": "package go [module]",
+			"a": ["go", "golang"]
+		},
+		{
+			"n": ["package", "hackage"],
+			"d": "Search for haskell packages to use in your projects",
+			"s": "package hackage [hackage]",
+			"a": ["hackage", "haskell"]
+		},
+		{
+			"n": ["package", "ddoc"],
+			"d": "Searches the discord deno docs",
+			"s": "package ddoc [query]",
+			"a": ["ddoc", "discorddeno", "discordeno", "ddocs"]
+		},
+		{
+			"n": ["package", "apt"],
+			"d": "Searches the apt repositorys for apt packages",
+			"s": "package apt [apt]",
+			"a": ["apt", "ubuntu", "apt", "mint", "debian"]
+		},
+		{
+			"n": ["package", "npm"],
+			"d": "Search for a npm package",
+			"s": "package npm [module]",
+			"a": ["npm", "node", "nodejs", "yarn", "bloat"]
+		},
+		{
+			"n": ["package", "natico"],
+			"d": "Natico docs",
+			"s": "package natico [query]",
+			"a": ["natico", "docs", "doc", "framework"]
+		},
+		{
+			"n": ["package", "crate"],
+			"d": "Search for a crate package",
+			"s": "package crate [crate]",
+			"a": ["crate", "cargo"]
+		}
+	]
+}
