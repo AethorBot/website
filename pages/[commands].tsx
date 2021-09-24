@@ -34,7 +34,7 @@ import Link from 'next/link';
 const Links = [
 	{
 		name: 'Home',
-		route: '/',
+		route: '/general',
 	},
 ];
 const Home: NextPage<{ commands: Command[]; categories: string[] }> = ({
