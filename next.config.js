@@ -7,6 +7,7 @@ module.exports = {
 	pwa: {
 		dest: 'public',
 	},
+	generateBuildId: () => 'build',
 	reactStrictMode: true,
 	compress: false,
 	purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
