@@ -205,7 +205,7 @@ export async function getStaticProps(context: any) {
 
 export async function getStaticPaths() {
 	return {
-		paths: [...Object.keys(Commands), '/', 'commands', '404'].map((x) => ({
+		paths: [...Object.keys(Commands), '/', 'commands'].map((x) => ({
 			params: { commands: x },
 		})),
 		fallback: false,
